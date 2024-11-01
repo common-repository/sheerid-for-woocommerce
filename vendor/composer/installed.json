@@ -1,0 +1,40 @@
+{
+    "packages": [
+        {
+            "name": "paymentplugins/sheerid-php",
+            "version": "dev-main",
+            "version_normalized": "dev-main",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:paymentplugins/sheerID-php.git",
+                "reference": "5495b576e6c605c4dbe187b9f6adf18b86dddf84"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/paymentplugins/sheerID-php/zipball/5495b576e6c605c4dbe187b9f6adf18b86dddf84",
+                "reference": "5495b576e6c605c4dbe187b9f6adf18b86dddf84",
+                "shasum": ""
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^9.6.0"
+            },
+            "time": "2023-11-20T18:46:23+00:00",
+            "default-branch": true,
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "SheerID\\": "src/"
+                }
+            },
+            "description": "PHP SDK that integrates with the SheerID API.",
+            "support": {
+                "source": "https://github.com/paymentplugins/sheerID-php/tree/main",
+                "issues": "https://github.com/paymentplugins/sheerID-php/issues"
+            },
+            "install-path": "../paymentplugins/sheerid-php"
+        }
+    ],
+    "dev": false,
+    "dev-package-names": []
+}

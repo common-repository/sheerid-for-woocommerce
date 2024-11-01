@@ -1,0 +1,26 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "sheerid-woocommerce/verification",
+  "version": "0.1.0",
+  "title": "SheerID Verification Block",
+  "category": "widgets",
+  "icon": "smiley",
+  "description": "This block renders a SheerID verification button",
+  "supports": {},
+  "attributes": {
+    "program": {
+      "type": "string",
+      "default": ""
+    },
+    "loading_text": {
+      "type": "string",
+      "default": ""
+    },
+    "coupon": {
+      "type": "string",
+      "default": ""
+    }
+  },
+  "textdomain": "sheerid-woocommerce"
+}
